@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: url('../images/hypnotize.png');
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+h1,h2,h3{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+}
+
+header{
+    background: #fff;
+    border-bottom: 4px solid #ccc;    
+}
+
+
+
+.portfolio{
+    position: relative;
+    margin-bottom: 16px;
+    width: 40%;
+    padding: 128px 0 32px 0; 
+    float: left;
+    
+}
+.content_area{
+    width: 960px;
+    margin: 0 auto;
+    background: #fff;
+    
+}
+
+
+
+
+h1{
+    background: #4aaaa5;
+    color: #fff;
+    padding: 32px;
+    font-size: 32px;
+    display: inline-block;    
+}
+
+nav{
+    width: 35%;
+    float: right;
+    margin-top: 42px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+       
+  }
+
+nav a{
+    color: #777;
+    font-size: 16px;
+    padding: 6px 12px;
+    text-decoration: none;
+    border-right: 2px solid #ccc;
+}
+
+nav ul li:last-child a{
+    border-right: none;
+}
+
+section{
+    padding: 24px;
+    border: 4px solid #ddd;
+    margin-top: 32px; 
+    display: flow-root;
+}
+
+h2{
+    color: #4aaaa5;
+    font-size: 24px;
+    padding: 8px 0;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #ccc;
+
+}
+
+img{
+    max-width:200px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+    transform: rotate(90deg);
+    float: left;
+    margin: 0 16px 8px 0;
+    border: 2px solid #ccc;
+}
+
+p{
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+
+form label{
+    display: block;
+    font-size:16px;
+    color: #666;
+    margin-bottom: 4px;
+
+}
+
+form input{
+    display:block;
+    width: 100%;
+    margin-bottom:16px;
+    padding:4px;
+}
+
+form textarea{
+    display:block;
+    width: 100%;
+    margin-bottom:16px;
+    padding:4px;
+    height: 200px;
+}
+
+button{
+    display: block;
+    background: #4aaaa5;
+    padding: 8px;
+    color: #fff;
+    border: none;
+}
+
+
+    
+
+
+#games{
+    background: url('../images/Image1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#movies{
+    float: right;
+    background: url('../images/Image2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#webdesign{
+    background: url('../images/Image3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#enterprise{
+    float: right;
+    background: url('../images/Image4.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#crypto{
+    background: url('../images/Image5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.portfolio h3{
+    background: #4aaaa5;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding:16px;
+    position:absolute;
+    bottom: 8px;
+    
+}
+
+
+
+
+footer{
+    background: #666;
+    border-top: 4px solid #4aaaa5;
+    margin-top: 32px;
+    color: #ccc;
+    text-align: center;
+    padding: 16px;
+
+}
